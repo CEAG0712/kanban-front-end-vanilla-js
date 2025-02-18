@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap");
+* {
+  font-family: "Indie Flower", cursive;
+  font-weight: 100;
+}
+.navbar-text {
+  color: aliceblue;
+  font-size: 30px;
+}
+#username-nav-item,
+#logout-nav-item {
+  padding-top: 11px;
+}
+#logout-nav-item {
+  padding-left: 20px;
+}
+#dashboard-nav-link,
+#register-nav-link,
+#login-nav-link {
+  padding-top: 20px;
+}
+.card-header {
+  text-align: center;
+}
+.todo {
+  background-color: rgba(108, 117, 125, 1);
+  color: aliceblue;
+  font-size: 30px;
+}
+.inprogress {
+  background-color: rgba(13, 110, 253, 1);
+  color: aliceblue;
+  font-size: 30px;
+}
+.done {
+  background-color: rgba(40, 167, 69, 1);
+  color: aliceblue;
+  font-size: 30px;
+}
+.createbutton {
+  margin-top: 20px;
+}
+.project-task {
+  margin-top: 5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.drag-container {
+  margin: 20px;
+}
+.drag-list {
+  display: flex;
+  align-items: flex-start;
+}
+.drag-column {
+  flex: 1;
+  margin: 0 10px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  overflow-x: hidden;
+}
+.drag-item-list {
+  min-height: 400px;
+}
+.over {
+  padding: 50px 10px;
+}
